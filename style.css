@@ -1,47 +1,71 @@
 * {
     margin: 0;
+    padding: 0;
 }
+
+/* 
+#19191A black
+#479761 green
+#CEBC81 yellowish   
+#A16E83 dark pink
+##B19f9E grayish pink */ 
 
 header {
-    background: grey;
-    display: flex;
+    overflow: hidden;
+    background-color: #19191A;
+    padding: 20px 10px;
+    /* padding : top bottom */
 }
 
-img.dan-logo {
-    transform: translate(-40px) ;
-    width: 250px;
-    height: 200px;
-}
-
-header h1 {
-    width: 250px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-}
-
-li a {
-    display: block;
-    width: 80px;
+header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 25px; /* sets amount of space above and below inline elements */ 
+    border-radius: 4px;
+}
+
+.dan-logo {
+    width: 220px;
+    transform: translate(-20px);
+}
+
+header a:hover {
+    background-color: #479761;
+    color: #19191A;
+}
+
+header a.active {
+    background-color: #479761;
+    color: #19191A;
+}
+
+.header-right {
+    float: right;
+    color: white;
+    line-height: 90px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-right h1 {
+    text-align: center;
 
 }
 
-li a:hover {
-    background-color: ivory;
+.header-right span {
+    color: #479761;
 }
 
-section {
-    height: 300px;
-    background: lightblue
-}
-
-footer {
-    background: lightgreen;
-}
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
