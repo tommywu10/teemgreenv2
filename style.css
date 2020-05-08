@@ -8,8 +8,9 @@
 #479761 green
 #CEBC81 yellowish   
 #A16E83 dark pink
-##B19f9E grayish pink */ 
+##B19f9E grayish pink */
 
+/* -------------------------HEADER --------------*/
 header {
     overflow: hidden;
     background-color: #19191A;
@@ -26,6 +27,7 @@ header a {
     font-size: 18px;
     line-height: 25px; /* sets amount of space above and below inline elements */ 
     border-radius: 4px;
+    margin: 2px;
 }
 
 .dan-logo {
@@ -58,6 +60,63 @@ header a.active {
 .header-right span {
     color: #479761;
 }
+
+/*-------BODY------------*/
+
+section {
+    background-color: #CEBC81;
+}
+
+.mySlides {
+    height: 600px;
+}
+
+.home-text {
+    font-family: 'Montserrat', sans-serif;
+    height: 300px;
+}
+
+.home-text h2 {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.home-text p {
+    margin: 30px;
+    
+}
+
+
+/* -------FOOTER --------*/
+
+footer {
+    height: 100px;
+    background-color:  #19191A; 
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    display: grid;
+    place-items: center center; /* short hand for align-items and justify items */ 
+    justify-content: space-evenly;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+
+.social-media-btns {
+   font-size: 30px;
+}
+
+footer a:hover {
+    background-color: #479761;
+}
+
 
 @media screen and (max-width: 500px) {
     .header a {
