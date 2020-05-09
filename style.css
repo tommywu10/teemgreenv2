@@ -71,17 +71,17 @@ section {
     height: 600px;
 }
 
-.home-text {
+.pro-text {
     font-family: 'Montserrat', sans-serif;
     height: 300px;
 }
 
-.home-text h2 {
+.pro-text h2 {
     text-align: center;
     padding-top: 35px;
 }
 
-.home-text p {
+.pro-text p {
     margin: 30px;
     
 }
