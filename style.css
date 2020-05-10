@@ -75,7 +75,7 @@ section {
 
 .home-text {
     font-family: 'Montserrat', sans-serif;
-    height: 400px;
+    height: 300px;
     display: flex;
 }
 
@@ -110,14 +110,20 @@ section {
     padding-right: 16px;
 }
 
+.motto span {
+    color: #479761;
+}
+
 .services-homepage {
-    height: 500px;
-    
+    height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
 .services-homepage h2{
     text-align: center;
-    padding: 15px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .services-homepage img {
@@ -126,10 +132,25 @@ section {
 
 .services-homepage p {
     width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
 }
 
+.services-homepage span {
+    color: #479761;
+}
 
+.services {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: auto;
+    justify-content: center;
+}
 
+.services div {
+    margin: 10px;
+}
 
 
 
@@ -156,12 +177,14 @@ footer a {
     padding: 12px;
 }
 
+footer a:hover {
+    color: white;
+}
+
 .social-media-btns {
    font-size: 30px;
 }
 
-
-  
 
 @media screen and (max-width: 500px) {
     .header a {
@@ -172,4 +195,6 @@ footer a {
     .header-right {
       float: none;
     }
+
+
   }
