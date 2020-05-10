@@ -16,6 +16,8 @@ header {
     background-color: #19191A;
     padding: 20px 10px;
     /* padding : top bottom */
+    border-bottom: 3px solid #479761;
+    
 }
 
 header a {
@@ -73,7 +75,8 @@ section {
 
 .home-text {
     font-family: 'Montserrat', sans-serif;
-    height: 300px;
+    height: 400px;
+    display: flex;
 }
 
 .home-text h2 {
@@ -83,8 +86,29 @@ section {
 
 .home-text p {
     margin: 30px;
-    
 }
+
+.home-text div {
+    width: 100%;
+}
+
+.motto {
+    background-color: rgb(226, 208, 149);
+    height: 150px;
+}
+.motto p {
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 24px;
+}
+
+.motto h3{
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 16px;
+}
+
 
 
 /* -------FOOTER --------*/
@@ -106,7 +130,7 @@ footer p {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: #479761;
     padding: 12px;
 }
 
@@ -115,9 +139,10 @@ footer a {
 }
 
 footer a:hover {
-    background-color: #479761;
+    background-color: 
 }
 
+  
 
 @media screen and (max-width: 500px) {
     .header a {
