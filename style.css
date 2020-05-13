@@ -8,7 +8,7 @@
 #479761 green
 #CEBC81 yellowish   
 #A16E83 dark pink
-##B19f9E grayish pink */
+#B19f9E grayish pink */
 
 /* -------------------------HEADER --------------*/
 header {
@@ -111,6 +111,7 @@ section {
     text-align: right;
     font-family: 'Montserrat', sans-serif;
     padding-right: 16px;
+    padding-bottom: 14px;
 }
 
 .motto span {
@@ -118,7 +119,7 @@ section {
 }
 
 .services-homepage {
-    height: 400px;
+    height: 330px;
     justify-content: center;
     align-items: center;
 }
@@ -131,13 +132,17 @@ section {
 
 .services-homepage img {
     width: 300px;
+    height: 150px;
 } 
 
 .services-homepage p {
     width: 300px;
+    height: 50px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     text-align: center;
+    align-items: center;
+    background-color: #B19f9E;
 }
 
 .services-homepage span {
@@ -152,8 +157,10 @@ section {
 }
 
 .services div {
-    margin: 10px;
+    padding: 4px;
 }
+
+/*--------------CONTACT PAGE---------*/
 
 
 
@@ -191,7 +198,7 @@ footer a:hover {
 
 @media screen and (max-width: 768px) {
     .header {
-        display: grid;
+        display: block;
     }
 
     .header a {
@@ -201,8 +208,8 @@ footer a:hover {
     }
     .header-right {
       float: none;
+      display: block;
     }
-
 
     .home-text p {
         font-size: 10px;
