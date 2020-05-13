@@ -162,7 +162,21 @@ section {
 
 /*--------------CONTACT PAGE---------*/
 
+.info h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
 
+.info div {
+    display: inline-block;
+}
+
+.info i {
+    font-size: 80px;
+    color: #479761;
+}
 
 /* -------FOOTER --------*/
 
