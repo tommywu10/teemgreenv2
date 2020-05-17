@@ -29,8 +29,11 @@
         
     </header>
 
+<div class="contact-page">
     <section class="info">
         <h1>Contact Us</h1>
+    <div class="contact-info">
+        <div class="info-block">
         <div class="phone-number">
             <h2>123-456-7890</h2>
             <i class="fa fa-phone"></i>
@@ -39,6 +42,8 @@
             <h2>Longmont, CO</h2>
             <i class="fa fa-location-arrow" aria-hidden="true"></i>
         </div>
+        </div>
+    </div>
     </section>
 
     <section class="booking">
@@ -46,7 +51,7 @@
     </section>
 
     <section class="contact-form">
-        <div>
+        <div class="form">
             <form action="/action_page.php"></form>
             <input type="text" id="fname" name="firstname" placeholder="First Name">
 
@@ -61,9 +66,14 @@
             </select>
 
             <input type="text" id="service" name="services" placeholder="What Service Do You Need?">
-        </div>
-    </section>
 
+            <button>Submit</button>
+        </div>
+        <div class="map-bg">
+        <div id="map"></div>
+    </div>
+    </section>
+</div>
     <footer>
         <p>TeemGreen | Longmont, CO | 123-456-7890</p>
         
@@ -76,3 +86,10 @@
 
 
 </body>
+
+<script src="./app.js"></script> 
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmnf1BKUQreI5Szz4qhnxGNXve96WDvBw&callback=initMap">
+</script>
+
+</html>

@@ -18,7 +18,6 @@ header {
     /* padding : top bottom */
     border-bottom: 3px solid #479761;
     height: 100%;
-    
 }
 
 header a {
@@ -143,6 +142,7 @@ section {
     text-align: center;
     align-items: center;
     background-color: #B19f9E;
+    padding-top: 15px;
 }
 
 .services-homepage span {
@@ -162,20 +162,98 @@ section {
 
 /*--------------CONTACT PAGE---------*/
 
+
 .info h1 {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-}
-
-.info div {
-    display: inline-block;
 }
 
 .info i {
     font-size: 80px;
     color: #479761;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.info-block {
+    background-color: grey;
+}
+
+.contact-info {
+    display: grid;
+    align-content: center;
+    background-image: url(./landscape3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+.contact-info div{
+    padding: 20px;
+}
+
+
+
+.contact-page-img img {
+    width: 700px;
+    
+}
+
+.phone-number, .location {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.booking h2 {
+    background-color: rgb(226, 208, 149);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.booking span {
+    color: #479761;
+}
+
+.contact-form {
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+input, select, button {
+    display: block;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+    
+}
+
+button {
+    background-color: #479761;
+    border: none;
+}
+
+#fname {
+    margin-top: 20px;
+}
+
+.map-bg {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+#map { 
+    width: 300px;
+    height: 220px;
+    background-color: grey;
 }
 
 /* -------FOOTER --------*/
