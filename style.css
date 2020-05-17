@@ -58,7 +58,6 @@ header a.active {
     text-align: center;
 
 }
-
 .header-right span {
     color: #479761;
 }
@@ -177,9 +176,6 @@ section {
     padding-top: 10px;
 }
 
-.info-block {
-    background-color: grey;
-}
 
 .contact-info {
     display: grid;
@@ -205,7 +201,9 @@ section {
 .phone-number, .location {
     display: block;
     font-family: 'Montserrat', sans-serif;
-
+    width: 163px;
+    background-color: rgba(160, 160, 160, 0.788);
+    justify-self: right;
 }
 
 .booking h2 {
@@ -233,12 +231,16 @@ input, select, button {
     height: 30px;
     text-align: center;
     margin: 5px;
-    
+  
 }
 
 button {
     background-color: #479761;
     border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
 }
 
 #fname {
@@ -254,6 +256,28 @@ button {
     width: 300px;
     height: 220px;
     background-color: grey;
+}
+
+.subscribe{
+    background-color: rgb(226, 208, 149);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.subscribe h2 {
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.subscribe p {
+    text-align: center;
+}
+
+.submit-email {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding: 20px;
 }
 
 /* -------FOOTER --------*/
