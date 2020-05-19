@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* 
@@ -167,12 +168,13 @@ section {
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
+    letter-spacing: 2px;
 }
 
 .info i {
     font-size: 80px;
     color: #479761;
-    padding-left: 40px;
+    padding-left: 10px;
     padding-top: 10px;
 }
 
@@ -184,7 +186,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-    
+    height: 400px;
 }
 
 .contact-info div{
@@ -201,9 +203,11 @@ section {
 .phone-number, .location {
     display: block;
     font-family: 'Montserrat', sans-serif;
-    width: 163px;
+    font-size: 14px;
+    width: 162px;
     background-color: rgba(160, 160, 160, 0.788);
     justify-self: right;
+    text-align: center;
 }
 
 .booking h2 {
@@ -278,6 +282,52 @@ button {
     grid-template-columns: auto auto;
     justify-content: center;
     padding: 20px;
+}
+
+/* ----------------ABOUT US -----------*/
+
+.about-us {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.about-us h1 {
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.about-us p{
+    line-height: 22px;
+    padding: 0px 80px 25px 80px;
+    
+}   
+
+.about-us img {
+    width: 85%;
+    height: 100%;
+    
+}
+
+.awards {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(226, 208, 149);
+}
+
+.awards h1 {
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.awards p {
+    line-height: 22px;
+    padding-bottom: 25px;
+}
+
+.awards img {
+    width: 85%;
+    height: 80%;
 }
 
 /* -------FOOTER --------*/
