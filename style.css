@@ -141,7 +141,7 @@ section {
     font-size: 12px;
     text-align: center;
     align-items: center;
-    background-color: #B19f9E;
+    background-color: rgb(161, 110, 131, .4);
     padding-top: 15px;
 }
 
@@ -151,8 +151,8 @@ section {
 
 .services {
     display: grid;
-    grid-template-columns: auto auto;
-    width: auto;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
     justify-content: center;
 }
 
@@ -289,7 +289,6 @@ button {
 .about-us {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .about-us h1 {
@@ -306,7 +305,7 @@ button {
 .about-us img {
     width: 85%;
     height: 100%;
-    
+    margin: -4px;
 }
 
 .awards {
@@ -323,12 +322,56 @@ button {
 .awards p {
     line-height: 22px;
     padding-bottom: 25px;
+    padding: 0px 80px 25px 80px;
 }
 
 .awards img {
     width: 85%;
     height: 80%;
+    margin: -4px;
 }
+
+.meet-the-teem {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    height: 435px;
+}
+
+.meet-the-teem h1 {
+    padding: 20px;
+    letter-spacing: 1px;
+}
+
+.meet-the-teem p {
+    padding: 0px 80px 25px 80px;
+    line-height: 22px;
+}
+
+.meet-the-teem img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.meet-the-teem h3 {
+    font-size: 14px;
+}
+
+.teem {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 100px;
+    grid-row-gap: 15px;
+    justify-content: center;
+}
+
+#marn {
+    height: 200px;
+}
+
+.meet-the-teem span {
+    color: #479761;
+}
+
 
 /* -------FOOTER --------*/
 
