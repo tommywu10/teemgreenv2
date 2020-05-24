@@ -425,7 +425,8 @@ footer a:hover {
         height: 80px;
     }
 
-    .meet-the-teem {
+    .teem {
+        grid-column-gap: 20px;
     }
 
   }
