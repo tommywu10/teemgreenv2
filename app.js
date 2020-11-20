@@ -1,16 +1,26 @@
-var myIndex = 0;
-carousel();
+/* carousel 
+grab carousel items - store values in 'slides'
+set slide position tp 0 
+store const totalSlides to length of slides 
+add event listeners to buttons and create functions for buttons
+check if (slidePosition === 1)
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
+*/
+
+const slides = document.getElementsByClass('mySlides');
+let slidePosition = 0;
+const totalSlides = slides.length;
+const nextBtn = document.getElementById('nextButton');
+const prevBtn = document.getElementById('prevButton');
+
+nextBtn.addEventListener('click', nextSlide);
+
+function nextSlide() {
+  if (slidePosition === slides.length - 1){
+    slidePosition = 0;
+  } else {
+    slidePosition++;
   }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 3000)
 }
 
 function initMap() {
