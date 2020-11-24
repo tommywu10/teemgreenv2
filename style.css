@@ -75,7 +75,7 @@ section {
 
 .mySlides {
     height: 600px;
-    
+    display: none;
 }
 
 .slideButtons {
@@ -93,6 +93,14 @@ section {
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.carousel-item-visible {
+    display: block;
+}
+
+.carousel-item-hidden {
+    display: hide;
 }
 .home-text {
     font-family: 'Montserrat', sans-serif;
